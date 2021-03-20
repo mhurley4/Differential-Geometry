@@ -10,7 +10,7 @@ def tangent_vectors(x, u, v):
 def unit_normal(x, u, v, simple=True):
     '''Computes unit normal vector (Gauss map) of surface
 
-    Optional argument simple (True/False) determines whether to simple expression for normal vector not.'''
+    Optional argument simple (True/False) determines whether to simplify expression for normal vector not.'''
     xu, xv = tangent_vectors(x, u, v)
     normal = xu.cross(xv)
     norm = normal.norm()
