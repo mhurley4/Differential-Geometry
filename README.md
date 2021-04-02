@@ -5,3 +5,5 @@ The curvatures.py file contains several functions, each of which takes as input 
 Compute_Curvatures.ipnyb is a Jupyter notebook that can be used to implement functions in curvatures.py.
 It imports curvatures.py and then uses functions from there.
 Currently computes curvatures for three parameterizations (two for a helicoid and one for a sphere).
+
+Homework_11 contains code for homework 11.
